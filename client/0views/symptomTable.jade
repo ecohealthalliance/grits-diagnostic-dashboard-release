@@ -1,0 +1,6 @@
+template(name="symptomTable")
+  .symptom-table
+    +reactiveTable collection=symptomTableCollection settings=tableSettings
+    p.info
+      | The values in this table correspond to the relative weights the keywords
+      | in each column had in determining the disease classifications in each row.
